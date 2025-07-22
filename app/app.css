@@ -26,6 +26,11 @@ body {
 main {
   @apply min-h-screen pt-10;
 }
+
+.main-background {
+  @apply bg-[url('/images/bg-main.svg')] bg-cover min-h-screen flex items-center justify-center;
+}
+
 h1 {
   @apply max-sm:text-[3rem] text-6xl  text-gradient leading-tight xl:tracking-[-2px] font-semibold;
 }
